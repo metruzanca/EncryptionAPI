@@ -1,5 +1,5 @@
 import { NowRequest, NowResponse } from '@vercel/node'
-import { getNow } from 'utils'
+import { getNow } from '../utils'
 
 export default (request: NowRequest, response: NowResponse) => {
   const { offset = '0'} = request.query
