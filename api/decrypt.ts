@@ -11,7 +11,7 @@ export default (request: NowRequest, response: NowResponse) => {
 
     console.log(encrypted);
 
-    response.status(200).send(encrypted.toString()) 
+    response.status(200).json(encrypted.toString()) 
   } catch (error) {
     response.status(400).send("400 Malformed Request: " + error) 
   }
