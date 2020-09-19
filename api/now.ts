@@ -2,9 +2,7 @@ import { NowRequest, NowResponse } from '@vercel/node'
 import { getNow } from 'utils'
 
 export default (request: NowRequest, response: NowResponse) => {
-  // const { name = 'World' } = request.query
-  // response.status(200).send(`Hello ${name}!`)
-
-
-
+  const { offset = '0'} = request.query
+  const now = getNow(parseInt(offset.toString()))
+  response.status(200).send(now.toUTCString())
 }
