@@ -1,0 +1,33 @@
+.method{
+  border-radius: .4em 0 0 .4em;
+  border: 2px solid black;
+  background:  rgb(49, 65, 136);
+  border-right: none;
+  padding: 0.4em;
+
+}
+
+.url{
+  display: inline-block;
+  width: 200px;
+  border: 2px solid black;
+  background:  rgb(49, 65, 136);
+  padding: 0.4em;
+  border-right: none;
+  border-left: none;
+}
+button{
+  border-radius: 0 .4em .4em 0;
+  display: inline-block;
+  height: 36px;
+  border: none;
+  border: 2px solid black;
+  border-left: none;
+  background: rgb(128, 157, 255);
+  color: white;
+  cursor: pointer;
+}
+
+.method{
+  display: inline-block;
+}

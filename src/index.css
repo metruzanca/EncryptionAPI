@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+  color: white;
+  margin: 10px;
 }
 
 code {
@@ -12,17 +15,12 @@ code {
     monospace;
 }
 
-.App {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 a:link{
   color:rgb(126, 126, 255)
+}
+
+.wrapper{
+  border: 2px solid black;
+  margin-bottom: 1em;
+  padding: .8em .4em;
 }
